@@ -1,12 +1,10 @@
 type titleDetails = {title: string, tabId?: int}
 
-@scope("chrome.browserAction")
-external setTitle: titleDetails => promise<unit> = "setTitle"
+external setTitle: titleDetails => promise<unit> = "chrome.browserAction.setTitle"
 
-@scope("chrome.browserAction")
-external setTitleWithCallback: (titleDetails, unit => unit) => unit = "setTitle"
+external setTitleWithCallback: (titleDetails, unit => unit) => unit =
+  "chrome.browserAction.setTitle"
 
 type tabIconDetails = {path?: string, tabId?: int, imageData?: Webapi.Dom.Image.t}
 
-@scope("chrome.browserAction")
-external setIcon: tabIconDetails => unit = "setIcon"
+external setIcon: tabIconDetails => unit = "chrome.browserAction.setIcon"
