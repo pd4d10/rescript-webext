@@ -1,0 +1,10 @@
+{
+  "name": "rescript-webext",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "es6"
+  }
+}
