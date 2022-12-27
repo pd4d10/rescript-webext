@@ -1,6 +1,6 @@
 {
   "name": "rescript-webext",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Rescript bindings for Web Extensions",
   "main": "index.js",
   "scripts": {
