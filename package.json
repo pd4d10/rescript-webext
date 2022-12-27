@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
   "keywords": [
     "rescript",
     "web-extension"
