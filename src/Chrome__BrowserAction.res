@@ -8,3 +8,8 @@ external setTitleWithCallback: (titleDetails, unit => unit) => unit =
 type tabIconDetails = {path?: string, tabId?: int, imageData?: Webapi.Dom.Image.t}
 
 external setIcon: tabIconDetails => unit = "chrome.browserAction.setIcon"
+
+module OnClicked = {
+  external addListener: (Chrome__Tabs.tab => unit) => unit =
+    "chrome.browserAction.onClicked.addListener"
+}
