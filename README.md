@@ -1,13 +1,7 @@
+# rescript-webext
 
+ReScript bindings for Web Extensions
 
-# Build
-```
-npm run build
-```
+## License
 
-# Watch
-
-```
-npm run watch
-```
-
+MIT

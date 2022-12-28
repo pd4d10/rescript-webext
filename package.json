@@ -1,25 +1,25 @@
 {
   "name": "rescript-webext",
   "version": "0.3.0",
-  "description": "Rescript bindings for Web Extensions",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "files": [
-    "src",
-    "bsconfig.json"
-  ],
+  "description": "ReScript bindings for Web Extensions",
   "keywords": [
     "rescript",
     "web-extension"
   ],
-  "author": "Rongjian Zhang",
   "license": "MIT",
-  "devDependencies": {
-    "rescript": "^10.1.0"
+  "author": "Rongjian Zhang",
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "rescript-webapi": "^0.7.0"
-  }
+  },
+  "devDependencies": {
+    "rescript": "^10.1.0"
+  },
+  "packageManager": "pnpm@7.20.0"
 }
