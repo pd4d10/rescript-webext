@@ -19,6 +19,7 @@
     "rescript-webapi": "^0.7.0"
   },
   "devDependencies": {
+    "@types/chrome": "^0.0.206",
     "rescript": "^10.1.0"
   },
   "packageManager": "pnpm@7.20.0"
