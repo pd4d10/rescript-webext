@@ -33,5 +33,5 @@ type createProperties = {
   selected?: bool,
 }
 
-external create: createProperties => promise<tab> = "create"
-external createWithCallback: (createProperties, tab => unit) => unit = "create"
+external create: createProperties => promise<tab> = "chrome.tabs.create"
+external createWithCallback: (createProperties, tab => unit) => unit = "chrome.tabs.create"
