@@ -17,6 +17,6 @@ external openOptionsPage: unit => unit = "chrome.runtime.openOptionsPage"
 external sendMessage: ('message, 'response => unit) => unit = "chrome.runtime.sendMessage"
 
 module OnMessage = {
-  external addListener: (('message, messageSender, 'response => unit) => unit) => unit =
+  external addListener: (('message, messageSender, 'response => unit) => 'any) => unit =
     "chrome.runtime.onMessage.addListener"
 }
